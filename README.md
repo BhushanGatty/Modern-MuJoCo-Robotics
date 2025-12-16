@@ -12,4 +12,7 @@ The original course uses the deprecated `mujoco-py` wrapper which no longer work
 
 ## Examples Included
 * **Projectile Motion:** Basic physics and drag simulation.
+* ![Adobe Express - Adobe Express - video_20251216_135918_edit](https://github.com/user-attachments/assets/e26b95e8-b093-4ea6-a970-5d8fb5d92760)
+
 * **2-Link Manipulator:** Double pendulum dynamics and chaotic motion.
+![Adobe Express - Adobe Express - video_20251216_133054_edit](https://github.com/user-attachments/assets/b545936d-23f1-42bd-a1cc-c2966c588711)
