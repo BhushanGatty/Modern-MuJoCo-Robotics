@@ -16,3 +16,9 @@ The original course uses the deprecated `mujoco-py` wrapper which no longer work
 
 * **2-Link Manipulator:** Double pendulum dynamics and chaotic motion.
 ![Adobe Express - Adobe Express - video_20251216_133054_edit](https://github.com/user-attachments/assets/b545936d-23f1-42bd-a1cc-c2966c588711)
+
+## 3. 3D Inverse Kinematics (Reaching)
+* **File:** `3d_reach.py`
+* **Description:** Upgraded the system to a 3-DOF (Degree of Freedom) robotic arm capable of moving in 3D space (X, Y, Z). 
+* **Math Used:** Implements Jacobian Inverse Kinematics with Damping (`mu_jacSite` and `numpy.linalg.pinv`) to solve for joint angles based on a 3D target position.
+ ![3d_arm_GIFS](https://github.com/user-attachments/assets/b983b174-28e8-4e65-9398-6f0f2b63b901)
