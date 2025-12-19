@@ -11,7 +11,7 @@ The original course uses the deprecated `mujoco-py` wrapper which no longer work
 * **IDE:** VS Code (Linux)
 
 ## Examples Included
-* **Projectile Motion:** Basic physics and drag simulation.
+* **Projectile Motion:** Basic physics and  simulation.
 * ![Adobe Express - Adobe Express - video_20251216_135918_edit](https://github.com/user-attachments/assets/e26b95e8-b093-4ea6-a970-5d8fb5d92760)
 
 * **2-Link Manipulator:** Double pendulum dynamics and chaotic motion.
