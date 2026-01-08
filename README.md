@@ -22,3 +22,15 @@ The original course uses the deprecated `mujoco-py` wrapper which no longer work
 * **Description:** Upgraded the system to a 3-DOF (Degree of Freedom) robotic arm capable of moving in 3D space (X, Y, Z). 
 * **Math Used:** Implements Jacobian Inverse Kinematics with Damping (`mu_jacSite` and `numpy.linalg.pinv`) to solve for joint angles based on a 3D target position.
  ![3d_arm_GIFS](https://github.com/user-attachments/assets/b983b174-28e8-4e65-9398-6f0f2b63b901)
+
+## 4. Mobile Robotics (Differential Drive)
+* **File:** `car.py`
+* **Description:** A simulation of a 3-wheeled differential drive robot (like a Roomba or Pioneer robot).
+* **Physics Features:**
+    * Implements a **Skid-Steering** kinematic model.
+    * Uses a **Free Joint** (6DOF) to allow navigation anywhere in the environment.
+    * Features a friction-less caster wheel for stability.
+* **Control Logic:** A state-machine loop that executes a "Figure 8" driving pattern (Forward -> Left Turn -> Right Turn -> Spin).
+
+### Demo
+![Untitled design](https://github.com/user-attachments/assets/d1f2c805-ebf1-4bbf-9fb2-c5fc7f6baef4)
