@@ -43,3 +43,14 @@ The original course uses the deprecated `mujoco-py` wrapper which no longer work
     * **Blue Ball:** Applies a custom drag force $F = -c \cdot v$ injected directly into the simulation loop.
 * **Implementation:** Uses `data.qfrc_applied` to apply custom forces to specific degrees of freedom at every simulation step.
 
+## 6. Contact Physics (Restitution)
+* **File:** `8_bouncing.py`
+* **Description:** Demonstrates how to control the Coefficient of Restitution (Bounciness) using MuJoCo's `solref` parameters.
+* **The Setup (Left to Right):**
+    * **Red:** High Damping (Inelastic / Mud).
+    * **Blue:** Zero Damping (Elastic / Superball).
+    * **Green:** Medium Damping (Basketball).
+* **Key Concept:** Shows how we can tune the simulation to model different material properties, from energy-absorbing clay to high-energy rubber.
+
+### Demo
+![Untitled design (1)](https://github.com/user-attachments/assets/62afddeb-e34a-461f-9c62-13a58f434634)
