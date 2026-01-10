@@ -34,3 +34,12 @@ The original course uses the deprecated `mujoco-py` wrapper which no longer work
 
 ### Demo
 ![Untitled design](https://github.com/user-attachments/assets/d1f2c805-ebf1-4bbf-9fb2-c5fc7f6baef4)
+
+## 5. Computational Physics (Drag Force)
+* **File:** `7_projectile_drag.py`
+* **Description:** A physics experiment comparing ideal motion vs. real-world air resistance.
+* **The Physics:**
+    * **Red Ball:** Vacuum physics (Ideal Parabola).
+    * **Blue Ball:** Applies a custom drag force $F = -c \cdot v$ injected directly into the simulation loop.
+* **Implementation:** Uses `data.qfrc_applied` to apply custom forces to specific degrees of freedom at every simulation step.
+
